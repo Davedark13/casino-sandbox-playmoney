@@ -13,7 +13,7 @@ Du brauchst:
 ## 2. Projekt vorbereiten
 
 ```bash
-cd /home/mediaserver/casino-sandbox
+cd /home/mediaserver/casino-sandbox-playmoney
 cp .env.example .env
 ```
 

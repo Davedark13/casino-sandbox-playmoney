@@ -3,7 +3,7 @@
 Diese Repo-Struktur ist bereit fuer einen normalen GitHub-Push. Falls `origin` schon gesetzt ist, pruefe zuerst die aktuelle Remote:
 
 ```bash
-cd /home/mediaserver/casino-sandbox
+cd /home/mediaserver/casino-sandbox-playmoney
 git remote -v
 ```
 
@@ -33,7 +33,7 @@ In GitHub:
 Beispiel:
 
 ```text
-https://github.com/YOUR-USER/casino-sandbox.git
+https://github.com/YOUR-USER/casino-sandbox-playmoney.git
 ```
 
 ## 3. Remote setzen oder aendern
@@ -41,13 +41,13 @@ https://github.com/YOUR-USER/casino-sandbox.git
 Neues Remote:
 
 ```bash
-git remote add origin https://github.com/YOUR-USER/casino-sandbox.git
+git remote add origin https://github.com/YOUR-USER/casino-sandbox-playmoney.git
 ```
 
 Oder vorhandenes Remote aendern:
 
 ```bash
-git remote set-url origin https://github.com/YOUR-USER/casino-sandbox.git
+git remote set-url origin https://github.com/YOUR-USER/casino-sandbox-playmoney.git
 ```
 
 ## 4. Commit erstellen
@@ -67,7 +67,7 @@ git push -u origin main
 Wenn GitHub ueber HTTPS nach Auth fragt, nutze:
 
 - einen Personal Access Token statt Passwort
-- oder richte SSH-Keys ein und wechsle auf `git@github.com:YOUR-USER/casino-sandbox.git`
+- oder richte SSH-Keys ein und wechsle auf `git@github.com:YOUR-USER/casino-sandbox-playmoney.git`
 
 ## 6. Nach dem Push
 

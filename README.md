@@ -27,10 +27,23 @@ Das Projekt ist absichtlich eine **Sandbox**:
 - Security-Posture-Pruefung, Request-IDs, Auth-Rate-Limits und Upload-Grenzen
 - Docker- und Staging-Setup
 
+GitHub-Repository:
+
+- `git@github.com:Davedark13/casino-sandbox-playmoney.git`
+
 ## Schnellstart
 
+Via Git:
+
 ```bash
-cd /home/mediaserver/casino-sandbox
+git clone git@github.com:Davedark13/casino-sandbox-playmoney.git
+cd casino-sandbox-playmoney
+```
+
+Oder auf dieser Maschine:
+
+```bash
+cd /home/mediaserver/casino-sandbox-playmoney
 cp .env.example .env
 docker compose up --build
 docker compose exec backend npm run seed
@@ -92,3 +105,5 @@ Demo-User:
 ## Sicherheitsgrenzen
 
 Dieses Repository ist fuer Play-Money-Tests, Admin-Ops und Architekturarbeit gedacht. Live-Money-Flags (`APP_MODE=live`, `LIVE_MONEY_ENABLED=true`, `LEGAL_APPROVED=true`) bleiben nur als Guardrail im Code erhalten und sind **keine** Produktionsfreigabe.
+
+Der GitHub-Repo-Stand ist fuer Demo- und Entwicklungszwecke gedacht. Vor externer Nutzung sollten Secrets ersetzt, Sichtbarkeit bewusst geprueft und das Staging nur hinter Schutzmassnahmen betrieben werden.

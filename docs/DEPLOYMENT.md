@@ -20,7 +20,7 @@ Sie ist **kein** Echtgeld-Produktionsleitfaden.
 ## 1. Environment vorbereiten
 
 ```bash
-cd /home/mediaserver/casino-sandbox
+cd /home/mediaserver/casino-sandbox-playmoney
 cp .env.production.example .env.production
 ```
 

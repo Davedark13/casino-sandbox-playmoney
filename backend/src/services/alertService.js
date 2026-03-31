@@ -12,9 +12,8 @@ export async function sendAlert(title, body, severity = 'medium') {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
     body: JSON.stringify({
-      username: 'casino-sandbox',
+      username: 'casino-playmoney',
       content: `**${severity.toUpperCase()}** ${title}\n${body}`
     })
   });
 }
-
